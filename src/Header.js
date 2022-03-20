@@ -1,4 +1,5 @@
-import './Header.css'
+import './Header.css';
+import SearchIcon from '@mui/icons-material/Search';
 
 function Header() {
     return (
@@ -12,6 +13,10 @@ function Header() {
                 </div>
             </div>
             <div className='rightHeader'>
+                <div className='searchBar'>
+                    <SearchIcon className='searchIcon' />
+                    <input placeholder='Search' className='search' type={"text"} />
+                </div>
                 <div className='helloUser'>Hello, Guest</div>
                 <img className='basketIcon' src='https://png.pngtree.com/png-vector/20190329/ourmid/pngtree-vector-shopping-bag-icon-png-image_889429.jpg'></img>
                 
