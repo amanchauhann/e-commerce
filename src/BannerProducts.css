@@ -1,0 +1,19 @@
+.mainCard{
+    border: 2px solid red;
+    height: 100px;
+}
+
+.topCard{
+    border: 2px solid black;
+    min-height: 50%;
+}
+
+.topCard>img{
+    height: 200px;
+}
+
+.bottomCard{
+    border: 2px solid green;
+    min-height: 50%;
+}
+
