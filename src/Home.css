@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 .home{
     border: 10px solid blue;
 }
@@ -25,7 +27,21 @@
     height: 26vh;
 } */
 
+h4{
+    font-family: roboto;
+}
 .bannerProductsContainer{
+    border: 2px solid black;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    margin-left: 10%;
+    /* max-width: fit-content; */
+    grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr));
+    gap: 1rem;
+}
+
+@media (max-width: 54rem) {
+    .bannerProductsContainer{
+        grid-template-columns: repeat(auto-fill, minmax(min(8rem, 100%), 1fr));
+        margin-left: 0;
+    }
 }
