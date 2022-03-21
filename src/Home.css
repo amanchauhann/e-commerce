@@ -24,3 +24,8 @@
 /* .bannerImage{
     height: 26vh;
 } */
+
+.bannerProductsContainer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
