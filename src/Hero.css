@@ -1,0 +1,15 @@
+.imgContainer{
+    display:flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-bottom: 5rem;
+}
+
+/* .main-image{
+    width: 100%;
+    margin-bottom: 6rem;
+} */
+
+/* .bannerImage{
+    height: 26vh;
+} */
