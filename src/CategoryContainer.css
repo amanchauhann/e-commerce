@@ -23,16 +23,19 @@
     /* grid-template-columns: repeat(5, 1fr); */
 }
 
-.livingContainer{
-    border: 2px solid green;
-    display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
-}
 
-.livingFirst{
-    grid-column: span 3;
-}
-
-.livingSecond{
-    grid-column-start: 4;
+@media (min-width: 45em) {
+    .livingContainer{
+        border: 2px solid green;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .livingFirst{
+        grid-column: span 3;
+    }
+    
+    .livingSecond{
+        grid-column-start: 4;
+    }
 }

@@ -3,6 +3,7 @@ import TopBanner from './TopBanner.js'
 import DealsBanner from './DealsBanner'
 import CategoryContainer from './CategoryContainer.js'
 // import HomeAndLiving from './Categories/HomeAndLiving'
+import Footer from './Footer.js';
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <TopBanner />
             <DealsBanner />
             <CategoryContainer />
+            <Footer />
         </div>
     )
 }
