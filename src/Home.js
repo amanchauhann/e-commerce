@@ -1,12 +1,12 @@
 import './Home.css'
-import Hero from './Hero.js'
+import TopBanner from './TopBanner.js'
 import DealsBanner from './DealsBanner'
 
 function Home() {
     return (
         <div className='home'>
             <div className="padder"></div>
-            <Hero />
+            <TopBanner />
             <DealsBanner />
             
         </div>
