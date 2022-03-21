@@ -1,0 +1,6 @@
+.livingCard{
+    border: 4px solid yellow;
+}
+.livingUpperCard>img{
+    width: 100%;
+}

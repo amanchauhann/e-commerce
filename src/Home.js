@@ -1,7 +1,8 @@
 import './Home.css'
 import TopBanner from './TopBanner.js'
 import DealsBanner from './DealsBanner'
-import Men from './Men.js'
+import CategoryContainer from './CategoryContainer.js'
+// import HomeAndLiving from './Categories/HomeAndLiving'
 
 function Home() {
     return (
@@ -9,8 +10,7 @@ function Home() {
             <div className="padder"></div>
             <TopBanner />
             <DealsBanner />
-            <Men />
-            
+            <CategoryContainer />
         </div>
     )
 }
