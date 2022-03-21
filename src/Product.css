@@ -3,6 +3,7 @@
 .mainContainer{
     border: 2px solid black;
     font-family: 'Roboto', sans-serif;
+    /* background-color: black; */
 }
 
 .upperCard{
@@ -10,7 +11,7 @@
 }
 
 .upperCard>img{
-    width: 100%;
+    width: 90%;
 }
 
 .lowerCard{
