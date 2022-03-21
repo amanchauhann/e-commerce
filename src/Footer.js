@@ -24,7 +24,28 @@ function Footer(){
                 <li>Contact Alumni</li>
             </ul>
             </div>
+            <div>
+            <h3>CHECK THIS OUT</h3>
+            <ul>
+                <li>Payments</li>
+                <li>Shipping</li>
+                <li>FAQ</li>
+                <li>Report Infringement</li>
+                <li>Returns</li>
+            </ul>
+            </div>
+            <div>
+            <h3>OUR POLICY</h3>
+            <ul>
+                <li>Return Policy</li>
+                <li>Terms of Use</li>
+                <li>Security</li>
+                <li>Privacy</li>
+                <li>Sitemap</li>
+            </ul>
+            </div>
         </footer>
+        <div className='disclaimer'>Made with ❤️ by AMAN CHAUHAN</div>
         </div>
     )
 }

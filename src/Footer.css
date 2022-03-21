@@ -8,10 +8,19 @@ footer>*{
     --w-color: white;
 }
 
+.wrapper{
+    background-color: #000;
+}
+
+@media (min-width:46em) {
+    footer{
+        display: flex;
+    }
+}
+
 footer{
     padding: 4rem;
-    background-color: #000;
-    display: flex;
+    /* background-color: #000; */
     justify-content: center;
 }
 
@@ -19,9 +28,16 @@ footer{
 footer>div>h3{
     color: var(--w-color);
     font-size: 13px;
-    /* text-align: left; */
+    text-align: center;
     font-weight: bolder;
     /* max-width: max-content; */
+}
+
+@media (max-width:46em) {
+    footer>div>h3{
+        text-align: right;
+
+    }
 }
 
 footer>div>ul{
@@ -38,8 +54,6 @@ footer>div>ul>*:hover{
     cursor: pointer;
 }
 
-/* .disclaimer{
+.disclaimer{
     color: var(--w-color);
-    margin-top: -50px;
-    overflow: hidden;
-} */
+}
