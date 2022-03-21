@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.mainContainer{
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.upperCard{
+    border: 1px solid orange;
+}
+
+.upperCard>img{
+    width: 100%;
+}
+
+.lowerCard{
+    border: 1px solid greenyellow;
+}

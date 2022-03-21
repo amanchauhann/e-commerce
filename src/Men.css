@@ -1,0 +1,24 @@
+/* .hero{
+    min-height: 100vh;
+    background-image: linear-gradient(#232526, #96DEDA);
+} */
+
+.menTitle{
+    border: 1px solid red;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: left;
+    padding: 1rem;
+    color: var(--heading-color);
+    letter-spacing: .15em;
+    max-width: fit-content;
+}
+
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+    gap: 3rem;
+    /* grid-template-columns: repeat(5, 1fr); */
+}

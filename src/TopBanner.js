@@ -1,7 +1,7 @@
 import './TopBanner.css'
 
 
-function Hero(){
+function TopBanner(){
     return(
         <div>
             <div className="imgContainer">
@@ -12,4 +12,4 @@ function Hero(){
     )
 }
 
-export default Hero
+export default TopBanner
