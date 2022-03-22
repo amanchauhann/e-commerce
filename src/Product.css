@@ -1,20 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+    gap: 3rem;
+}
 .mainContainer{
+    /* background-color: rgb(240, 116, 116); */
     border: 2px solid black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     /* background-color: black; */
 }
 
 .upperCard{
     border: 1px solid orange;
+    /* min-height: 80%; */
 }
 
 .upperCard>img{
     width: 90%;
+    height: 100%;
 }
 
 .lowerCard{
+    min-height: 20%;
     border: 1px solid greenyellow;
 }
 
@@ -24,5 +37,4 @@
     height: 40px;
     background-color: black;
     color: white;
-    font-family: 'Josefin Sans', sans-serif;
 }
