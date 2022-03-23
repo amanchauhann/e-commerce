@@ -13,7 +13,6 @@ function Home() {
             <TopBanner />
             <DealsBanner />
             <CategoryContainer />
-            <Footer />
         </div>
     )
 }

@@ -35,7 +35,7 @@ footer>div>h3{
 
 @media (max-width:46em) {
     footer>div>h3{
-        text-align: right;
+        text-align: left;
 
     }
 }
