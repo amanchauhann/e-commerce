@@ -47,9 +47,10 @@ function ProductClicked(){
                         <button className='size' onClick={() => setState('38')} value={38}>38</button>
                     </div>
                 </div>
+                <div className='qtyValue'>Quantity:</div>
                 <div className='quantity'>
                     <button onClick={decrement} className='decrement'>-</button>
-                    <div className='valueHolder'>{count}</div>
+                    <div className='valueHolder' min>{count}</div>
                     <button onClick={increment} className='increment'>+</button>
                 </div>
                 <button className='buyNow'>Buy Now</button>

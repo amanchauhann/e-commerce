@@ -155,6 +155,12 @@
 
 .buyNow:hover{
 background-color: var(--mint-green);
+color: black;
+border: 2px solid black;
+}
+
+.qtyValue{
+    text-align: left;
 }
 
 .quantity{

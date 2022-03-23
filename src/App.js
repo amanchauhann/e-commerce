@@ -9,12 +9,15 @@ import ProductClicked from './ProductClicked.js'
 function App() {
   return (
     <BrowserRouter>
-    <Header />
+    
     <div className="App">
       <Routes>
-        <Route path='/' element={[<Home />, <Footer />]} />
-        <Route path='/product' element={<ProductClicked />} />
+        
+        <Route path='/product' element={[<Header />, <ProductClicked />, <Footer />]} />
+
+        <Route path="/" element={[<Header />, <Home />, <Footer />]} />
       </Routes>
+      
     </div>
     
     </BrowserRouter>

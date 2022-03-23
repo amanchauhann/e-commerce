@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Product.css';
 
 function Men({image, productname, price}){
@@ -26,7 +27,9 @@ function Men({image, productname, price}){
                 <div className='lowerCard'>
                     <div className='productName'>{values.title}</div>
                     <div className='productPrice'>₹ {values.price}</div>
-                    <button className='addToBasketButton'>Add to Basket</button>
+                    <Link to={'./product'}>
+                    <button className='addToBasketButton'>BUY NOW</button>
+                    </Link>
                 </div>
             </div>
                     </>

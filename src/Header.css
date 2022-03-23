@@ -22,6 +22,12 @@
     border: 2px solid navajowhite;
     /* height: 80px; */
     display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    /* width: 40%; */
+    height: 100%;
 }
 
 .categories{
