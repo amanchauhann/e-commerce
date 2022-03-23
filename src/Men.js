@@ -21,17 +21,17 @@ function Men({image, productname, price}){
                 return(
                     <>
                     <div className='mainContainer'>
-                <div className='upperCard'>
-                    <img src={values.image} />
-                </div>
-                <div className='lowerCard'>
-                    <div className='productName'>{values.title}</div>
-                    <div className='productPrice'>₹ {values.price}</div>
-                    <Link to={'./product'}>
-                    <button className='addToBasketButton'>BUY NOW</button>
-                    </Link>
-                </div>
-            </div>
+                        <div className='upperCard'>
+                            <img src={values.image} />
+                        </div>
+                        <div className='lowerCard'>
+                            <div className='productName'>{values.title}</div>
+                            <div className='productPrice'>₹ {values.price}</div>
+                            <Link to={'./product'}>
+                            <button className='addToBasketButton'>BUY NOW</button>
+                            </Link>
+                        </div>
+                    </div>
                     </>
                 )
             })}
