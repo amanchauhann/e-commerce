@@ -1,7 +1,20 @@
 import './ProductClicked.css'
 import StarOutlineRoundedIcon from '@mui/icons-material/StarOutlineRounded';
+import { useState } from 'react';
 
 function ProductClicked(){
+    const [state, setState] = useState();
+    const [count, setCount] = useState(0);
+
+    const decrement=()=>{
+        setCount(count-1);
+    }
+
+    const increment=()=>{
+        setCount(count+1);
+    }
+    
+
     return(
         <>
         <div className='productClicked'>
@@ -26,13 +39,18 @@ function ProductClicked(){
                     <div className='priceDetails'>inclusive of all taxes</div>
                 </div>
                 <div className='selectSize'>
-                    <h4>Select Sizes</h4>
+                    <h4>Select Size <span>{state}</span></h4>
                     <div className='sizes'>
-                        <button className='size'>32</button>
-                        <button className='size'>34</button>
-                        <button className='size'>36</button>
-                        <button className='size'>38</button>
+                        <button className='size' onClick={() => setState('32')} value={32}>32</button>
+                        <button className='size' onClick={() => setState('34')} value={34}>34</button>
+                        <button className='size' onClick={() => setState('36')} value={36}>36</button>
+                        <button className='size' onClick={() => setState('38')} value={38}>38</button>
                     </div>
+                </div>
+                <div className='quantity'>
+                    <button onClick={decrement} className='decrement'>-</button>
+                    <div className='valueHolder'>{count}</div>
+                    <button onClick={increment} className='increment'>+</button>
                 </div>
                 <button className='buyNow'>Buy Now</button>
             </div>

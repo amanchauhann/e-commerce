@@ -4,6 +4,7 @@
     --ds-color: #535665;
     --rating-b-color: #eaeaec;
     --rating-color: #282c3f;
+    --mint-green: #2ecc71;
 }
 
 .productClicked{
@@ -102,10 +103,17 @@
 
 .selectSize{
     text-align: left;
+    margin-bottom: 3rem;
 }
 
 .selectSize>h4{
     font-family: 'Alegreya', serif;
+}
+
+.selectSize>h4>span{
+    /* border: 2px solid black; */
+    margin: 1rem;
+    /* padding: 2px; */
 }
 
 .size{
@@ -127,9 +135,51 @@
     color: #ff3f6c;
 } */
 
-.size:active{
-    border: 1px solid #ff3f6c;
+.size:focus{
+    border: 3px solid var(--mint-green);
     background-color: #fff;
-    color: #ff3f6c;
+    color: var(--mint-green);
+    background-color: black;
 }
 
+.buyNow{
+    width: 400px;
+    height: 3rem;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    word-spacing: 1rem;
+    letter-spacing: 1rem;
+    border:4px solid var(--mint-green);
+}
+
+.buyNow:hover{
+background-color: var(--mint-green);
+}
+
+.quantity{
+    width: 140px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.quantity>button{
+    width: 30px;
+    background-color: var(--mint-green);
+    color: white;
+}
+
+.valueHolder{
+    margin: auto;
+}
+
+/* .decrement{
+    border: 1px solid black;
+}
+
+.increment{
+    border: 1px solid black;
+} */
